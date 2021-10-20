@@ -1,0 +1,18 @@
+<div mat-dialog-content>
+    <mat-form-field>
+      <input matInput [(ngModel)]="data.serviceName" placeholder="serviceName">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="data.serviceUrl" placeholder="serviceUrl">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="data.creationTime" placeholder="creationTime">
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput [(ngModel)]="data.httpStatus" placeholder="httpStatus">
+    </mat-form-field>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+    <button mat-button (click)="onNoClick()">Update</button>
+  </div>

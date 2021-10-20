@@ -1,0 +1,7 @@
+kry\codetest\Controller\ServiceController.class
+kry\codetest\ServicePoller.class
+kry\codetest\Controller\HealthController.class
+kry\codetest\Service\ServiceService.class
+kry\codetest\CodetestApplication.class
+kry\codetest\Repository\ServiceRepo.class
+kry\codetest\Entities\ServiceEntity.class

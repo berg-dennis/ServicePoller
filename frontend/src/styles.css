@@ -1,0 +1,95 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css";
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+  background: #fffdfd;
+}
+.navbar {
+  margin-bottom: 30px;
+}
+.navbar-custom {
+  background-color: #2c4c88;
+}
+
+.main-box {
+  background: #ffffff;
+  -webkit-box-shadow: 1px 1px 2px 0 #cccccc;
+  -moz-box-shadow: 1px 1px 2px 0 #cccccc;
+  -o-box-shadow: 1px 1px 2px 0 #cccccc;
+  -ms-box-shadow: 1px 1px 2px 0 #cccccc;
+  box-shadow: 1px 1px 2px 0 #cccccc;
+  margin-bottom: 16px;
+  -webikt-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+mat-button-toggle-group {
+  margin-left: 12px;
+}
+
+.addButton {
+  position: fixed;
+  right: 20px;
+  top: 6px;
+  margin-right: 8px;
+}
+
+.md-button {
+  padding: 0 6px 0 6px;
+  margin: 6px 8px 6px 8px;
+  min-width: 88px;
+  border-radius: 3px;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.mat-raised-button.mat-success,
+.mat-flat-button.mat-success,
+.mat-fab.mat-success,
+.mat-mini-fab.mat-success {
+  color: #f9f5f5;
+  background-color: #0068a8;
+  margin-right: 8px;
+}
+
+.mat-button.mat-success,
+.mat-stroked-button.mat-success {
+  color: #fdfdfd;
+}
+.mat-button.mat-success:hover,
+.mat-stroked-button.mat-success:hover {
+  background-color: #9b0600;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
