@@ -33,7 +33,6 @@ public class ServiceController {
 
     @PostMapping("/services/add")
     public ResponseEntity<String> addService (@RequestBody Map<String, Object> service) throws MalformedURLException {
-        System.out.println("adding new service");
         return ss.addService(service);
 
     }

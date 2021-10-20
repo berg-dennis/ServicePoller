@@ -11,7 +11,6 @@ import { ServiceEntity } from "./serviceEntity";
 export class ServiceEntityService{
 
     private apiUrl = 'http://localhost:8080';
-    options = {'access-control-allow-origin': "http://localhost:4200/", 'Content-Type': 'application/json'} ;
 
     constructor(private http: HttpClient){}
 
@@ -22,8 +21,6 @@ export class ServiceEntityService{
     public addService(service: ServiceEntity): Observable<ServiceEntity>{
         return this.http.post<ServiceEntity>(`${this.apiUrl}/api/services/add`, service);
     }
-
-
 
     public updateService(service : ServiceEntity):Observable<ServiceEntity>{
         return this.http.put<ServiceEntity>(`${this.apiUrl}/api/services/update`, service);
