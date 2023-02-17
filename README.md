@@ -48,24 +48,3 @@ body:
 Services can only be added with a protocol.
 
 ---------------------------------------------------------------------------------------------------------
-
-
-Basic requirements (If these aren’t met the assignment will not pass):
-● A user need to be able to add a new service with URL and a name 
-● Added services have to be kept when the server is restarted  
-● Display the name, url, creation time and status for each service 
-● Provide a README in english with instructions on how to run the 
-application
-Extra requirements (No prioritisation on these, pick the ones that you find
-interesting):
-● We want full create/update/delete functionality for services
-● The results from the poller are automatically shown to the user (no
-need to reload the page to see results)
-● We want to have informative and nice looking animations on
-add/remove services 
-● The service properly handles concurrent writes
-● Protect the poller from misbehaving services (for example answering
-really slowly)
-● URL Validation ("sdgf" is probably not a valid service)
-● Multi user support. Users should not see the services added by
-another user
